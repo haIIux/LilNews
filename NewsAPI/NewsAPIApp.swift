@@ -2,8 +2,10 @@
 //  NewsAPIApp.swift
 //  NewsAPI
 //
-//  Created by Rob Maltese on 10/5/21.
+//  Created by TenEightStudios on 10/5/21.
 //
+
+// https://api.lil.software/news
 
 import SwiftUI
 
@@ -11,7 +13,7 @@ import SwiftUI
 struct NewsAPIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
